@@ -1,9 +1,12 @@
 body {
-    background-color: rgb(224, 230, 173);
+    background-color: rgb(201, 153, 65);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center
+    
   }
 
 #odin-recipe {
-    background-color: wheat;
+    background-color: rgb(201, 153, 65);
     color: black;
     text-align: center;
     margin: auto;
@@ -17,20 +20,17 @@ body {
 .main-page {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     overflow: hidden;
-    background-color: #333;
+    background-color: #2f4d2a;
   }
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: red;
+    background-color: rgb(201, 153, 65);
+   
   }
 
-  #bacon {
-    float: left;
-}
-  
   #bacon a {
     display: block;
     color: white;
@@ -39,10 +39,6 @@ body {
     text-decoration: none;
   }
 
-  #potato {
-    float: left;
-}
-  
   #potato a {
     display: block;
     color: white;
@@ -51,10 +47,6 @@ body {
     text-decoration: none;
   }
 
-  #crub {
-    float: left;
-}
-  
   #crub a {
     display: block;
     color: white;
@@ -62,4 +54,49 @@ body {
     padding: 14px 16px;
     text-decoration: none;
   }
-   
+
+  .header img {
+    clip-path: circle();
+    width: auto;
+    height: 450px;
+    margin: 10px 10px 10px 10px;
+    }
+
+  .header h1,
+  .ingredients h1,
+  .description h1,
+  .steps h1 {
+    font-style: normal;
+    color: #2f4d2a;
+    padding: 3px;
+    border: 3px;
+    margin: 10px;
+    border-color: white;
+    border-style: dotted;
+  }
+
+  .steps ol,
+  .ingredients ul,
+  .description p {
+    font-weight: 350;
+    color: #492d21;
+    font-size: large;
+    }
+
+.description p {
+  margin: 15px;
+}
+
+.ingredients ul,
+.steps ol {
+  padding-left: 0;
+} 
+
+ul li,
+ol li {
+ list-style-position: inside;
+  }
+
+  ol > li::marker {
+    font-weight: bold;
+  }
