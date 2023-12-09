@@ -10,9 +10,9 @@ body {
     color: black;
     text-align: center;
     margin: auto;
-    height: 3cm;
+    padding: 20px;
     font-weight: bold;
-    font-family: Courier, monospace;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration:overline;
     
 }
@@ -99,4 +99,10 @@ ol li {
 
   ol > li::marker {
     font-weight: bold;
+  }
+
+  .nav img {
+  height: 100px;
+  width: auto;
+  
   }
