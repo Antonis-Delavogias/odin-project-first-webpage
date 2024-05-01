@@ -8,7 +8,9 @@
   
 * Explore how HTML and CSS work together to structure and visually present content.
 
-What I Learned: CSS Selectors, CSS Properties, Applying CSS, Basic HTML Structure, and HTML-CSS Relationship.
+# What I Learned: 
+
+* CSS Selectors, CSS Properties, Applying CSS, Basic HTML Structure, and HTML-CSS Relationship.
 
 **Feel free to:**
 
