@@ -12,7 +12,7 @@
 
 * CSS Selectors, CSS Properties, Applying CSS, Basic HTML Structure, and HTML-CSS Relationship.
 
-**Feel free to:**
+# Feel free to:
 
 * Browse the code to see how it's implemented.
   
