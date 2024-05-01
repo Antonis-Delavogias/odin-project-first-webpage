@@ -1,6 +1,6 @@
 # [odin-project-first-webpage]
 
-**Project Goals:**
+# Project Goals:
 
 * Deepen my understanding of Selectors, Properties and Values
   
